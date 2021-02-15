@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <form action="page suivant" method="POST">
+        <div class="div11">
+            <label >Name :</label>
+            <input type="text" id="A1">
+            <p id="p1"></p>
+            <label>PassWord :</label>
+            <input type="password" id="A2">
+        </div>
+        
+        <p id="p2"></p>
+        <div class="div2">
+            <label>Afficher Div :</label>
+            <label >Oui</label><input type="radio" name="aa" id="f1" onchange="changer();">
+            <label >Non</label><input type="radio" name="aa" id="f2" onchange="changer();">
+        </div>
+
+        <div id="div1" class="div3">
+            <label>Choiser une ville</label>
+            <select id="s1">
+                <option value="0">Selectioner ville</option>
+                <option value="1">Casablanca</option>
+                <option value="2">Rabat</option>
+                <option value="3">Tanger</option>
+            </select>
+        </div><br><br>
+        <div class="div4">
+            <input type="button" value="Se Connecter" onclick="connecter();">
+            <input type="reset" value="annuler">
+        </div>
+        
+        <p id="p3" ></p>
+        <p id="p4"></p>
+    </form>
+
+
+    <script src="js/costum.js"></script>
+    
+</body>
+</html>
